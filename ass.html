@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 HTML</title>
+</head>
+<style>
+    table,td,tr{
+            height: 30px;
+            width: 300px;
+            text-align: center;
+            border:1px solid black;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <span class="content">
+            Contact : <a href="">7011155865</a> <br>
+        </span>
+        <span class="content">
+            About  : Web Dev assignment 1 <br>
+        </span>
+        <span class="content">
+            Projects : This is my first project <br>
+        </span>
+        <span class="content">
+            Skills : HTML <br>
+        </span>
+        <span class="content">
+           
+        </span>
+    </div><br> <br>
+    <p>Form</p>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">name</label></td>
+                <td><input type="text"id="name"required placeholder="enter the name"/></td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="email"id="email"required placeholder="xyz@gmail.com"/></td>
+            </tr>
+            <tr> 
+                <td><label for="password">password</label></td>
+                <td><input type="password"id="password"required placeholder="enter the password"/></td>
+            </tr>
+            <tr>
+                <td><label for="city">city</label></td>
+                <td><input type="city"id="city"required/></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="DOB">DOB</label>
+                </td>
+                <td>
+                    <input type="date" id="DOB">
+                </td>
+            </tr>
+            <tr>
+                <td><label>gender</label></td>
+                <td><select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>other</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>message</label></td>
+                    <td><textarea rows="5",cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td><label> Profession</label></td> 
+               <td><label for="student" >Student</label>
+                <input id="student" type="radio" name ="profession"/>
+                <label for="engineer">Engineer</label>
+                <input id="engineer" type="radio" name  ="profession"/>
+                <label for="teacher">teacher</label>
+                <input id="teacher"type="radio" name  ="profession"/>
+                </td>
+            </tr>
+            <tr>
+                <td><label>feedback</label><br></td>
+                <td><label>high</label>
+                    <input type="range"name="feedback"/>
+                    <label>low</label></td>
+            </tr>
+            <tr>
+                <td><input type="submit"/></td>
+            </tr>
+            
+        </table>
+    </form>
+    <div>
+        <h1>Location and YouTube Video</h1>
+        <span>
+            <iframe style="margin-left:250px; margin-right:50px; border:10px solid black;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9572317812303!2d77.11437127533553!3d28.63104387566561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0353faff6d41%3A0xd3090f1960f6e18!2sGuru%20Tegh%20Bahadur%204th%20Centenary%20Engineering%20College!5e0!3m2!1sen!2sin!4v1735757716162!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+        <span><iframe width="300" height="300" style="border:10px solid black" src="https://www.youtube.com/embed/lecHBYPpjZM?si=Iawfw9eKSOoPpV0-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></span>
+    </div><br> <br>
+    <span class ="personal videos and images">
+        <h1>Personal Videos and Images</h1>
+        <img src="/car.jpeg"/><br> <br>
+        <h1>Videos</h1>
+        <video src="/recording.mp4" controls ></video>
+    </span>
+    <span class="Aboutme">
+        <h1>About me</h1><br>
+        <ul>
+        <li><h2>My Schooling</h2></li>
+        <p1>I have completed my schooling from KV Vikaspuri, Delhi</p1>
+        <li><h2>My Current Academic Status</h2></li>
+        <p1>Currently i am pursuinig B.Tech in CSE from Guru Tegh Bahadur 4th Centenary College under aegis of IPU</p1><br>
+    </span><br><br>
+    <span class ="My hobby">
+        <h1>My Hobby</h1><br>
+        <ul>
+          <li>Playing basketball</li> 
+          <li>Playing cricket</li>
+          <li>Exercise</li>
+          <li>Writing</li>
+        </ul>
+</span>
+<!-- <button>Resume</button> -->
+</body>
+</html>
